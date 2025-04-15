@@ -1,4 +1,4 @@
-const apiUrl = 'http://localhost:5001/items'; // Backend API URL
+const apiUrl = 'https://host-d0ru.onrender.com/items'; // Backend API URL
 
 const addItemForm = document.getElementById('addItemForm');
 const itemsList = document.getElementById('itemsList');
