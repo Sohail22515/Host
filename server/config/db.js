@@ -3,7 +3,7 @@ require('dotenv').config();
 
 const connectDB = async () => {
   try {
-    await mongoose.connect(MONGO_URI, { ssl: true });
+    await mongoose.connect(process.env.MONGO_URI, { ssl: true });
     
     console.log('✅ MongoDB connected!');
   } catch (err) {
